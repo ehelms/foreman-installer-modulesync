@@ -1,9 +1,12 @@
 ---
-- puppet-concat
-- puppet-dhcp
-- puppet-dns
-- puppet-foreman
-- puppet-foreman_proxy
-- puppet-git
-- puppet-puppet
-- puppet-tftp
+- puppet-qpid
+- puppet-katello
+- puppet-katello_devel
+- puppet-candlepin
+- puppet-pulp
+- puppet-gutterball
+- puppet-capsule
+- puppet-certs
+- puppet-crane
+- puppet-service_wait
+- puppet-elasticsearch
