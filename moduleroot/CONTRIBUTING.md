@@ -17,7 +17,7 @@ Checklist (and a short version for the impatient)
       description (50 characters is the soft limit, excluding ticket
       number(s)), and should skip the full stop.
 
-    - If you have a [http://projects.theforeman.org/projects/puppet-foreman/issues](Redmine issue)
+    - If you have a [http://projects.theforeman.org/](Redmine issue)
       number, associate the issue in the message.  The first line should start
       with the issue number in the form "fixes #XXXX - rest of message".
       [More information on the Redmine style](http://projects.theforeman.org/projects/foreman/wiki/Reviewing_patches-commit_message_format).
@@ -56,7 +56,7 @@ Checklist (and a short version for the impatient)
       - Push your changes to a topic branch in your fork of the
         repository, in a new branch.
 
-      - Submit a pull request to the repository in the 'theforeman'
+      - Submit a pull request to the repository in the 'katello'
         organization.
 
 The long version
