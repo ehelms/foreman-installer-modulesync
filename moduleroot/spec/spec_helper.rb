@@ -1,5 +1,5 @@
 # This file is managed centrally by modulesync
-#   https://github.com/theforeman/foreman-installer-modulesync
+#   https://github.com/katello/foreman-installer-modulesync
 
 require 'puppetlabs_spec_helper/module_spec_helper'
 <% (@configs['requires'] || []).each do |r| -%>
