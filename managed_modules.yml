@@ -10,3 +10,4 @@
 - puppet-crane
 - puppet-service_wait
 - puppet-elasticsearch
+- puppet-common
