@@ -1,9 +1,8 @@
 ---
 Gemfile:
   required:
-  - gem: rake
   - gem: rspec-puppet
-    version: '~> 2.0'
+    version: '~> 2.3'
   - gem: puppetlabs_spec_helper
     version: '>= 0.8.0'
   - gem: puppet-lint
@@ -17,6 +16,8 @@ Gemfile:
   - gem: puppet-lint-leading_zero-check
   - gem: puppet-lint-trailing_comma-check
   - gem: puppet-lint-file_ensure-check
+  - gem: puppet-lint-param-docs
+    version: '>= 1.3.0'
   - gem: simplecov
   - gem: puppet-blacksmith
     version: '>= 3.1.0'
@@ -37,16 +38,12 @@ Gemfile:
       - 'ruby_18'
       groups:
       - 'development'
-  - gem: rspec-puppet-facts
   - gem: metadata-json-lint
-  - gem: rspec
-    version: '< 3.2.0'
-    options:
-      platforms:
-      - 'ruby_18'
 .puppet-lint.rc:
   default_disabled_lint_checks:
   - '80chars'
   - 'class_inherits_from_params_class'
 spec/spec_helper.rb:
   requires: []
+Rakefile:
+  param_docs_pattern: []
